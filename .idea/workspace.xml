@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="064eecd8-0360-4265-8017-0fe1b359c758" name="Default" comment="" />
+=======
+    <list default="true" id="064eecd8-0360-4265-8017-0fe1b359c758" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/help.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> PRACTICA51
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +28,39 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
+<<<<<<< HEAD
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> PRACTICA51
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="author.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/author.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+      <file leaf-file-name="author.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/author.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/help.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> PRACTICA51
               <folding />
             </state>
           </provider>
@@ -35,7 +70,11 @@
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
+<<<<<<< HEAD
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> PRACTICA51
               <folding />
             </state>
           </provider>
@@ -46,9 +85,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
               <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+<<<<<<< HEAD
               <folding>
                 <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
               </folding>
+=======
+              <folding />
+>>>>>>> PRACTICA51
             </state>
           </provider>
         </entry>
@@ -57,11 +100,26 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
+<<<<<<< HEAD
               <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <marker date="1496750553000" expanded="true" signature="79:110" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
                 <marker date="1496750553000" expanded="true" signature="1061:1066" ph="{&quot;body-parser&quot;: &quot;~1.16.0&quot;...}" />
               </folding>
+=======
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz.sqlite" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz.sqlite">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+>>>>>>> PRACTICA51
             </state>
           </provider>
         </entry>
@@ -72,8 +130,13 @@
             <state relative-caret-position="45">
               <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
+<<<<<<< HEAD
                 <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
                 <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+                <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+                <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
               </folding>
             </state>
           </provider>
@@ -84,6 +147,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/controllers/quiz_controller.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/author.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/views/help.ejs" />
+      </list>
+    </option>
+  </component>
+>>>>>>> PRACTICA51
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -281,7 +362,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1853000" />
+=======
+    <option name="totallyTimeSpent" value="1633000" />
+>>>>>>> PRACTICA51
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1023" extended-state="0" />
@@ -344,9 +429,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -354,10 +443,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="79:110" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
             <marker date="1496750553000" expanded="true" signature="1061:1066" ph="{&quot;body-parser&quot;: &quot;~1.16.0&quot;...}" />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -386,8 +479,13 @@
         <state relative-caret-position="45">
           <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
+<<<<<<< HEAD
             <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
             <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+            <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
           </folding>
         </state>
       </provider>
@@ -409,9 +507,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -420,8 +522,13 @@
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
             <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+            <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
           </folding>
         </state>
       </provider>
@@ -472,8 +579,13 @@
         <state relative-caret-position="375">
           <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
+<<<<<<< HEAD
             <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
             <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+            <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
           </folding>
         </state>
       </provider>
@@ -489,10 +601,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="79:110" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
             <marker date="1496750553000" expanded="true" signature="1061:1066" ph="{&quot;body-parser&quot;: &quot;~1.16.0&quot;...}" />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -523,9 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -553,9 +673,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
@@ -564,8 +688,13 @@
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
             <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+            <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
           </folding>
         </state>
       </provider>
@@ -671,8 +800,13 @@
         <state relative-caret-position="45">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
+<<<<<<< HEAD
             <marker date="1496750553000" expanded="true" signature="1151:1223" ph="{...}" />
             <marker date="1496750553000" expanded="true" signature="1282:1528" ph="{...}" />
+=======
+            <marker date="1496744709000" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1496744709000" expanded="true" signature="982:1228" ph="{...}" />
+>>>>>>> PRACTICA51
           </folding>
         </state>
       </provider>
@@ -688,18 +822,35 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
+<<<<<<< HEAD
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <marker date="1496750553000" expanded="true" signature="79:110" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
             <marker date="1496750553000" expanded="true" signature="1061:1066" ph="{&quot;body-parser&quot;: &quot;~1.16.0&quot;...}" />
           </folding>
+=======
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
+<<<<<<< HEAD
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+=======
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/author.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+>>>>>>> PRACTICA51
           <folding />
         </state>
       </provider>
@@ -708,16 +859,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+<<<<<<< HEAD
           <folding>
             <marker date="1496750553000" expanded="true" signature="2005:2022" ph="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> PRACTICA51
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
+<<<<<<< HEAD
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> PRACTICA51
           <folding />
         </state>
       </provider>
@@ -730,6 +889,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/views/author.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -738,5 +898,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> PRACTICA51
   </component>
 </project>
