@@ -187,3 +187,51 @@ exports.check = function (req, res, next) {
         answer: answer
     });
 };
+
+
+//GET /quizzes/randomplay
+exports.randomPlay = function(req, res, next){
+
+    //array con las preguntas que el usuario ya ha contestado
+    var pasadas  = (req.session.pasadas || "");
+    var puntuacion = pasadas.length; //puntuacion es igual a las preguntas pasadas
+    req.session.score = puntuacion;
+
+    //array con las preguntas que se pueden proponer como siguiente
+    models.Quiz.findAll({
+        where: {id: {$notin: pasadas}}  //busco todas las que tienen id no contenido en pasadas
+    })
+    .then(function (quizzes) {
+        if(quizzes.length === 0){//no quedan quizzes que mostrar
+
+            req.session.pasadas = ""; //vacío pasadas para poder volver a jugar ¿?
+            res.render('quizzes/random_nomore', {score: puntuacion});
+
+        }else{
+            var siguiente = quizzes[Math.floor(Math.random() * quizzes.length)]; //siguiente es la siguiente pregunta que se pondrá al usuario
+
+            req.session.pasadas.push(siguiente.id); //añado la pregunta a las pasadas por el usuario
+
+            res.render('quizzes/random_play', {score: puntuacion, quiz: siguiente});
+        }
+    });
+}
+
+//GET /quizzes/randomcheck/:quizid
+exports.randomCheck = function (req, res, next) {
+
+    var answer = req.query.answer || "";
+
+    var result = answer.toLowerCase().trim() === req.quiz.answer.toLowerCase().trim();
+
+    if(!result){
+        //reinicio pasadas para poder volver a empezar
+        res.session.pasadas = "";
+    }else{
+        (req.session.score)++;
+    }
+    res.render('quizzes/random_result.ejs', {score: req.session.score, answer: answer, result: result});
+}
+
+
+

@@ -29,6 +29,12 @@ router.delete('/quizzes/:quizId(\\d+)',    quizController.destroy);
 router.get('/quizzes/:quizId(\\d+)/play',  quizController.play);
 router.get('/quizzes/:quizId(\\d+)/check', quizController.check);
 
+//randomplay
+router.get('/quizzes/randomplay', quizController.randomPlay);
+
+//randomcheck
+router.get('/quizzes/randomcheck/:quizId', quizController.randomCheck);
+
 
 //Página de Ayuda
 router.get('/help', function(req, res, next) {
